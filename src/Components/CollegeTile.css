@@ -1,0 +1,252 @@
+
+.tile {
+  width: 700px;
+  height: 480px;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px #444444;
+  position: relative;
+}
+
+.featured{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 10px;
+  left: -10px;
+  z-index: 1;
+}
+.featured_flag{
+  z-index: 1;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  background-color: #68a7ff;
+  top: -27px;
+  right: -12px;
+}
+
+.featured_flag::before{
+  content: '';
+  position:absolute;
+  top: 0;
+  left: -50px;
+  border-left: 25px solid transparent;
+  border-top: 25px solid #68a7ff;
+  border-right: 25px solid #68a7ff;
+  border-bottom: 25px solid #68a7ff;
+}
+
+img{
+  filter: brightness(40%);
+}
+
+.rating{
+  z-index: 1;
+  background-color: #f5a626;
+  position: absolute;
+  top: 30px;
+  right: 15px;
+  height: 50px;
+  width: 100px;
+  border-radius: 4px;
+  padding-bottom: 4px;
+}
+
+.rating-text{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: #ffffff
+}
+
+.rating-given{
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 0;
+  text-align: right;
+
+}
+.total-rating{
+  text-align: left;
+}
+
+.quality{
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.pills{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  z-index: 1;
+  position: absolute;
+  top: 255px;
+  left: 0;
+  color:#ffffff ;
+  width: 100%;
+  text-align: right;
+}
+
+.pill1{
+  
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #444444;
+  height: 35px;
+  width: 150px;
+  margin-left: 20px;
+  line-height: 35px;
+  text-align: center;
+  float: left;
+
+}
+.pill2{
+  
+  background-color: #ffffff;
+  border-radius: 15px;
+  color: #444444;
+  height: 35px;
+  width: 110px;
+  margin-left: 10px;
+  line-height: 35px;
+  text-align: center;
+  float: left;
+}
+
+.ranking{
+  float: right;
+  line-height: 35px;
+  padding-right: 10px;
+}
+
+.college-name{
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 12px;
+  color:#444444;
+  font-size: 22px ;
+  font-weight: 700;
+  float: left;
+}
+
+.stars{
+  height: 30px;
+  float: left;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top:5px ;
+  margin-left:12px;
+
+}
+
+.nearest_place{
+  clear: left;
+  margin-left: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  width: 430px;
+}
+
+.nearest-place1{
+  color: #adadad;
+}
+.actual-price{
+  color: #444444;
+  height: 20px;
+  font-size: 15px;
+  text-decoration: line-through;
+  float: right;
+  padding-right: 15px;
+  line-height: 20px;
+  color: #444444;
+  margin-top: 10px;
+}
+
+.discount-percentage{
+  background-color:#dd1c26;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  float: right;
+  margin-right: 10px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.discount-percentage::before{
+  content: '';
+  float: right;
+  position: absolute;
+  right: 30px;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #dd1c26;
+  border-bottom: 10px solid transparent;
+  
+}
+
+.famous_nearest_places{
+  color: #adadad;
+  margin-top: 25px;
+  margin-left: 12px;
+  font-size: 15px;
+}
+
+.match{
+  color:#37b396;
+  font-weight: 600;
+}
+
+.km{
+  color: #444444;
+  font-weight: 600;
+}
+
+.offertext{
+  background-color: #ccf5e7;
+  margin-top: 25px;
+  width: 420px;
+  height: 35px;
+  line-height: 35px;
+  padding-left: 10px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.login{
+  color: #1999d2;
+
+}
+.discounted_fees{
+  color: #dd1c26;
+  float: right;
+  font-size: 35px;
+  font-weight: 700;
+  margin-right: 10px;
+  margin-top: -15px;
+  
+}
+
+.fees_cycle{
+  float: right;
+  margin-top: -15px;
+  margin-right: 10px;
+  font-size:13px ;
+  font-weight: 600;
+  color: #444444;
+}
+
+.amenties{
+  font-size: 15px;
+  font-weight: 600;
+  float: right;
+  margin-right: 10px;
+  color: #37b396;
+  margin-top: -25px;
+}
